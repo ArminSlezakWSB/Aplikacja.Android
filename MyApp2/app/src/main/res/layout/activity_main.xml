@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="279dp"
+        android:layout_height="723dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/cola_btn"
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:foregroundTint="@color/purple_200"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/cola" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ilość:"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/cola_ilosc_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/purple_200"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/frytki_btn"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/frytki" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ilość:"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/frytki_ilosc_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/purple_200"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/burger_btn"
+            android:layout_width="match_parent"
+            android:layout_height="159dp"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/burger" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ilość:"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/burger_ilosc_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/zamow_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:text="ZAMÓW" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Razem do zapłaty"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/cena_tv"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
