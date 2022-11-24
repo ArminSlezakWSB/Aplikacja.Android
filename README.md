@@ -26,7 +26,7 @@
 
   ## Link
   
-  [DEMO](https://www.youtube.com/watch?v=IQiLPGh6hhw)
+  [DEMO](https://www.youtube.com/shorts/lNGGBK-OObM)
   
   ## Mock-Up
   
